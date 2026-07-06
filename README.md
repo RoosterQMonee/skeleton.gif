@@ -1,10 +1,11 @@
 <p align="center">
   <img src="assets/skeleton.gif" alt="skele-tony" width="200">
 </p>
-
----
-
+<div style="text-align: center;">
+  
 # Skeleton.gif
+
+</div>
 
 Windows overlay to occasionally play a skeleton running gif (with an optional riff sound) on your screen :]
 
