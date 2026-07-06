@@ -28,6 +28,7 @@ int screen_w, screen_h;
 int atlas_w, atlas_h;
 int frame_w, frame_h;
 
+// make sure to update this with your proper atlas data! (check assets/meta.json)
 int cols = 6;
 int rows = 5;
 int frame_count = 27;

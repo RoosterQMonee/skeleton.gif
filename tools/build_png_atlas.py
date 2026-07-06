@@ -22,7 +22,6 @@ if not files:
 
 imgs = []
 
-# ---------------- LOAD + RESIZE ----------------
 for f in files:
     path = os.path.join(INPUT_DIR, f)
     img = Image.open(path).convert("RGBA")
@@ -37,7 +36,6 @@ for f in files:
 frame_w, frame_h = imgs[0].size
 count = len(imgs)
 
-# ---------------- GRID LAYOUT ----------------
 if MAX_COLS:
     cols = MAX_COLS
 else:
@@ -50,13 +48,11 @@ atlas_h = rows * frame_h
 
 atlas = Image.new("RGBA", (atlas_w, atlas_h), (0, 0, 0, 0))
 
-# ---------------- PACK FRAMES ----------------
 for i, img in enumerate(imgs):
     x = (i % cols) * frame_w
     y = (i // cols) * frame_h
     atlas.paste(img, (x, y))
 
-# ---------------- SAVE ATLAS ----------------
 atlas.save(
     OUTPUT_ATLAS,
     "PNG",
@@ -64,7 +60,6 @@ atlas.save(
     compress_level=9
 )
 
-# ---------------- META FILE ----------------
 meta = {
     "frame_count": count,
     "cols": cols,
