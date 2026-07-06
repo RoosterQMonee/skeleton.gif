@@ -15,7 +15,6 @@ Windows overlay to occasionally play a skeleton running gif (with an optional ri
 2. use `tools/build_png_atlas.py` to construct an atlas from the inputted frames
 3. use `tools/embed_assets.py` to create your `src/assets_embedded.h` file
 4. update the `rows`,`cols` and `frame_count` variables in main.c according to the outputted `assets/meta.json` file
-
 > you can comment/uncomment `PLAY_AUDIO` if you want to remove/include riff.mp3!
 
 5. run `build.bat`
