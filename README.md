@@ -1,9 +1,7 @@
 <p align="center">
   <img src="assets/skeleton.gif" alt="skele-tony" width="200">
 </p>
-<div style="text-align: center;">
-  <h2>Skeleton.gif</h2>
-</div>
+<h1 align="center">skeleton.gif</h1>
 
 ---
 
