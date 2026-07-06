@@ -1,6 +1,6 @@
 # Skeleton.gif
 
-Windows overlay to randomly play a skeleton running gif (with an optional riff sound) every N seconds :]
+Windows overlay to occasionally play a skeleton running gif (with an optional riff sound) on your screen :]
 
 > the source code is kept intentionally simple and portable; feel free to leave comments or PRs for other platforms!
 
